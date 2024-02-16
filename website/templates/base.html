@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ page_description }}">
+    <meta name="author" content="Fvern Wakerley">
+    <meta name="keywords" content="{{ page_keywords }}">
+
+    <link href="/static/assets/{{ page_icon }}" rel="shortcut icon">
+    <link href="/static/css/variables.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/general.css" rel="stylesheet" type="text/css">
+    {% block head %}{% endblock %}
+
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+      {% block body %}{% endblock %}
+  </body>
+</html>
