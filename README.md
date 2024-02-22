@@ -1,31 +1,39 @@
 # Just Another Tech Portfolio
-Welcome to my portfolio's source code! It's built with 
-mostly python with Flask, with some HTML and CSS.
+Welcome to my portfolio's source code!
+It's mainly built in python using Flask as its backend 
+framework, with other languages such as HTML and CSS for 
+the frontend.
 
 ## Why Build it with Flask?
 Because why not? I tend to find it funny using languages 
-for functions not really intended for, and also I think 
-it's a great opportunity to learn deepen my knowledge of 
-how I can interact, and work with the web in python.
+for functions not initially intended for.
+Though, I also think it's a great opportunity to learn to 
+deepen my knowledge of how I can interact, and work with the 
+web in python.
 
-## How to run it?
-Currently, you can't still need to get in working order first, 
-however the instructions are as follows:
+## How to run the project
+As of now, this project is not yet functional, but I'm working 
+on it, however, the instructions for running it are as follows.
 
-First off you'll need to download all the requirements which 
+First off, you'll need to download all the requirements which 
 can be done by running the following command:
 ```
 pip install -r requirements.txt
 ```
-You can then run main.py to then host the site on your local 
-machine.
+After that you can then run the program using:
+```
+python main.py
+```
+Though you may want to add the `-d` flag to enable debug mode.
 
----
+## How to contribute
+If you'd like to contribute to this project, please feel free to 
+open an issue on GitHub or send me a message on Matrix.
 
-# About Me
-I'm Fvern Wakerley a student in the University of Liverpool 
-studying Computer Science. Looking to build my programming 
-skills and expand my knowledge.
+## License
+This project is licensed under the Apache License, Version 2.0. 
+See the LICENSE file for more information.
 
-Best chances of contacting me is by messaging over matrix 
-at [@solfer:matrix.org](https://matrix.to/#/@solfer:matrix.org).
+## Contact Me
+If you have any questions or suggestions, please feel free to 
+contact me at [@solfer:matrix.org](https://matrix.to/#/@solfer:matrix.org).
