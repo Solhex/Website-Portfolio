@@ -40,25 +40,21 @@ body {
 
 .flip-helper {
   animation: dog-flipper 15s linear infinite;
+  will-change: transform;
 }
 
 
 #border-img1 {
   border: 50px solid transparent;
   border-image: url(../assets/question-border.png) 120 round;
+  text-align: center;
 }
 
-/* --- page shell: header + scrollable main + footer ---
-starfield.css locks html/body to overflow:hidden, so `main` does the
-scrolling instead. `body.page` outranks starfield's bare `body`. */
 body.page {
-  display: flex;
-  flex-direction: column;
+  overflow-y: auto;
 }
 
-body.page main {
-  flex: 1 1 auto;
-  overflow-y: auto;
+.main-inner {
   max-width: 46em;
   margin: 0 auto;
   padding: 0 1em 1em 1em;
@@ -69,10 +65,6 @@ header,
 body.page main {
   position: relative;
   z-index: 1;
-}
-
-header {
-  text-align: center;
 }
 
 .nav {
@@ -97,6 +89,19 @@ a:active {
   color: yellow;
 }
 
+.header {
+  width:100%;
+  height:100px;
+  border:none;
+  text-align: center;
+}
+
+.footer {
+  width:100%;
+  height:160px;
+  border:none;
+}
+
 .post-list {
   list-style: none;
   padding: 0;
@@ -113,10 +118,6 @@ a:active {
 
 .post-body {
   text-align: left;
-}
-
-.updated-note {
-  text-align: center;
 }
 
 @keyframes flip {
