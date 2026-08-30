@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>A Blog, The Blog, My Blog</title>
+    <link>https://solfvern.com/blog/index.html</link>
+    <description>Fvern's blog. Newest first. Updated whenever something interesting comes across.</description>
+    <language>en</language>
+
+    <item>
+      <title>In Defence Of Comic Sans</title>
+      <link>https://solfvern.com/blog/comic-sans-defence.html</link>
+      <guid>https://solfvern.com/blog/comic-sans-defence.html</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <description>A serious design argument, made in a silly typeface.</description>
+    </item>
+
+    <item>
+      <title>The Site Is Finally Live</title>
+      <link>https://solfvern.com/blog/site-is-live.html</link>
+      <guid>https://solfvern.com/blog/site-is-live.html</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Two years of "under construction" comes to an end.</description>
+    </item>
+  </channel>
+</rss>
